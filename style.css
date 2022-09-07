@@ -1,0 +1,255 @@
+* {
+   box-sizing: border-box;
+   margin: 0px;
+   padding: 0px;
+}
+
+.pembungkus #gambar {
+   background-image: url(home.jpg);
+   height: 60vh;
+   width: 100%;
+   background-size: cover;
+   background-position: 0px -167px;
+}
+
+#transparant {
+   background-color: rgba(0, 0, 0, 0.15);
+   width: 100%;
+   height: 60vh;
+}
+
+#futsal {
+   text-shadow: black 5px 5px 5px;
+}
+
+#Hal-1 {
+   display: flex;
+}
+
+#tampil {
+   display: block;
+}
+
+
+.lapangan {
+   background-color: #3F4E4F;
+   height: 85vh;
+   width: 70%;
+   margin-left: 30px;
+}
+
+#text {
+   text-align: center;
+}
+
+.Login,
+.hubungi_kami {
+   background-color: #3F4E4F;
+   /* height: 45vh; */
+   /* width: 340px; */
+   /* width: 1030%; */
+   width: 93%;
+   color: white;
+}
+
+.Login {
+   height: 54vh;
+}
+
+.hubungi_kami {
+   height: 28.5vh;
+   padding: 30px;
+}
+
+#alamat {
+   font-style: italic;
+}
+
+#Text-login {
+   font-family: 'Libre Baskerville', serif;
+}
+
+.hr {
+   margin: 0px 20px 20px 20px;
+   border: 4px solid white;
+   background-color: white;
+   opacity: 1;
+   border-radius: 10px;
+}
+
+.form {
+   width: 300px;
+   margin: auto;
+}
+
+.button {
+   width: 300px;
+   margin-left: 26px;
+}
+
+#Register {
+   margin-top: 10px;
+   text-align: center;
+   color: white;
+}
+
+#Buat {
+   color: white;
+   font-size: xx-large;
+   text-decoration: none;
+}
+
+#lingkaran-1 {
+   margin-top: 147px;
+   width: 400px;
+   height: 400px;
+   opacity: 0.2;
+   object-position: -66px 95px;
+   position: absolute;
+   z-index: 1;
+}
+
+#textku {
+   text-align: center;
+   color: white;
+   font-size: 30px;
+   padding-top: 10px;
+   font-weight: bold;
+   font-family: 'Libre Baskerville', serif;
+}
+
+#menu {
+   margin-left: 600px;
+   width: 500px;
+   font-family: 'Fjalla One', sans-serif;
+   text-shadow: black 5px 5px 10px;
+}
+
+#menu a {
+   margin: 5px;
+}
+
+.slider {
+   position: absolute;
+   z-index: 2;
+   width: 63%;
+   height: 68vh;
+   background-color: aqua;
+}
+
+#gambarku {
+   height: 68vh;
+}
+
+#info-lapangan,
+#info-lapangan2 {
+   background-color: #950101;
+   color: white;
+   z-index: 3;
+   width: 300px;
+   margin: auto;
+   margin-bottom: 20px;
+   border-radius: 50px;
+}
+
+#info-lapangan2 {
+   margin-bottom: 28px;
+}
+
+.carousel-indicators {
+   margin-bottom: 0px;
+}
+
+#Lanjutan {
+   width: 97%;
+   height: 100vh;
+   background-color: #A27B5C;
+   padding: 50px;
+   margin-left: 30px;
+   color: white;
+
+
+}
+
+#Lanjutan h2 {
+   font-style: italic;
+   font-weight: bold;
+}
+
+#Lanjutan p {
+   font-size: 15pt;
+   margin-left: 50px;
+}
+
+#img {
+   width: 800px;
+   height: 600px;
+   position: absolute;
+   margin-left: 400px;
+}
+
+input {
+   width: 300px;
+   height: 40px;
+}
+
+#lingkaran-2 {
+   margin: 192px 0px 0px 900px;
+   width: 400px;
+   height: 400px;
+   opacity: 0.2;
+   object-position: -66px 95px;
+   position: absolute;
+   z-index: 1;
+   transform: scaleX(-1);
+}
+
+#btn-submit {
+   background-color: red;
+   border: none;
+   color: white;
+   border-radius: 40px;
+   margin-left: 150px;
+   width: 150px;
+   height: 30px;
+   font-size: larger;
+}
+
+.jadwal-futsal {
+   background-color: #3F4E4F;
+   height: 100vh;
+   width: 97%;
+   margin-left: 30px;
+
+}
+
+.jadwal_futsal,
+th,
+td {
+   color: white;
+   font-size: large;
+   text-align: center;
+
+}
+
+.table {
+   margin-top: 50px;
+   margin-left: 10px;
+
+}
+
+.container-footer {
+   margin-top: 50px;
+   height: 10vh;
+   background-color: rgb(205, 210, 214);
+   text-align: center;
+   font-size: larger;
+   padding: 20px;
+   font-weight: bold;
+}
+
+#Navbar {
+   position: sticky;
+   top: 0;
+   z-index: 99;
+}
